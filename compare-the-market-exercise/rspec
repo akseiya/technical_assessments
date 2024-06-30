@@ -1,0 +1,4 @@
+#!/bin/bash
+which xvfb-run &> /dev/null || sudo apt-get -qy --force-yes install xvfb
+bundle check || bundle install
+xvfb-run --server-args="-screen 0, ${SCREEN_SIZE:-1920x1080}x24" rspec
