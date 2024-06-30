@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NPM Dependency Fetcher</title>
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="fetchDependencies.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form>
+        <label for="rootPkgName">
+            Enter package name:
+        </label>
+        <input required type="text" id="rootPkgName" placeholder="package-name">
+        <input type="button" value="Show dependencies" disabled>
+    </form>
+    <hr/>
+    <h2 id="treeTitle"></h2>
+    <ul id="rootDepsList"></ul>
+</body>
+
+</html>

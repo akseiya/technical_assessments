@@ -1,0 +1,31 @@
+{
+  "name": "exercise-npmdeps",
+  "version": "1.0.0",
+  "description": "Fetches dependency tree for an NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akseiya/exercise-npmdeps.git"
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "fetch",
+    "tree",
+    "packages",
+    "depend"
+  ],
+  "author": "Michał Lech",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/akseiya/exercise-npmdeps/issues"
+  },
+  "homepage": "https://github.com/akseiya/exercise-npmdeps#readme",
+  "dependencies": {
+    "hapi": "^17.4.0",
+    "inert": "^5.1.0"
+  }
+}
